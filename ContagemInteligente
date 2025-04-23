@@ -1,0 +1,21 @@
+algoritmo "ContadorInteligente"
+var
+   cont, i, f:inteiro
+inicio
+   escreval("INICIO:")
+   leia(i)
+   escreval("FIM;")
+   leia(f)
+   cont <- i
+   se (cont < f) entao
+      enquanto (cont <= f) faca
+         escreva(cont)
+         cont <- cont + 1
+      fimenquanto
+   senao
+      enquanto (cont >= f) faca
+         escreva(cont)
+         cont <- cont - 1
+      fimenquanto
+   fimse
+fimalgoritmo
