@@ -1,0 +1,16 @@
+algoritmo "ConversorMoedas"
+var
+   cont:inteiro
+   reais, dolares, conv:real
+inicio
+   cont <- 1
+   escreval("Quantas conversões seram realizadas?")
+   leia(conv)
+   enquanto (cont <= conv) faca
+      escreval("Qual o valor em R$?")
+      leia(reais)
+      dolares <- reais/5.88
+      escreval("O valor convertido é US$:", dolares:5:2)
+      cont <- cont + 1
+   fimenquanto
+fimalgoritmo
