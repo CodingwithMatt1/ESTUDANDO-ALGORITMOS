@@ -1,0 +1,17 @@
+algoritmo "ContagemInterativa"
+var
+
+  valor, salto, contador: inteiro
+inicio
+  contador <- 0
+  escreval("QUER CONTAR ATÉ QUANTO?")
+  leia(valor)
+  escreval("QUAL VAI SER O VALOR DO SALTO")
+  leia(salto)
+  escreval("CONTAGEM INICIADA")
+  enquanto (contador <= valor) faca
+           escreval(contador)
+           contador <- contador + salto
+  fimenquanto
+  escreval("CONTAGEM FINALIZADA")
+fimalgoritmo
